@@ -1,0 +1,180 @@
+body{
+    font-family:  'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+#navbar{
+    background-color:  #be3144;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner-container{
+   background-color: #000000;
+}
+    
+img{
+  width: 1368px;
+  height: 250px;
+}
+
+
+
+.work{
+    background-color: #45567D;
+}
+
+.header-banner{
+   font-size: 42px;
+   color: white;
+   padding-top: 90px;
+   padding-bottom: 5px;
+   border-bottom: 1px solid white;
+}
+
+.card-footer-banner {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+
+.about-contact{
+    background-color: #303841;
+} 
+
+#h1{
+    color: white; 
+}
+
+#h1-para{
+    color: white;
+    font-style: italic;
+}
+
+/* starting icon design */
+
+.icon-design ul{
+    /* use for list item without bullet */
+    list-style-type: none;
+    /* use for icon align -> center */
+    display: inline-flex;
+    margin-right: 45px;
+    
+}
+
+ /* last work of icon design for small device */
+@media (max-width: 700px) {
+    /* For mobile phones: */
+    .icon-design ul{
+       margin: 0;
+       padding: 0;
+       float: left;
+       display: list-item;
+      }
+}  
+
+
+.icon-design ul li{
+    margin: 0 15px;
+}
+
+/* last work of icon design for small device */
+@media (max-width: 700px) {
+    /* For mobile phones: */
+    .icon-design ul li{
+        padding-bottom: 15px;
+      }
+}  
+
+/* working with clas="fab" icons */
+.icon-design ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    /* allows to change property values smoothly, over a given duration */
+    transition: .6s;
+    color: #000;
+}
+
+/* working with clas="fas" icons */
+.icon-design ul li .fas{
+    font-size: 30px;
+    line-height: 60px;
+    /* allows to change property values smoothly, over a given duration */
+    transition: .6s;
+    color: #000;
+}
+
+/* changing icons color .fab */
+.icon-design ul li .fab:hover{
+     color: white;
+
+}
+
+/* changing icons color .fas */
+.icon-design ul li .fas:hover{
+    color: white;
+
+}
+
+.icon-design ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .6);
+}
+
+.icon-design ul li a:hover{
+    transform: translate(0, -10px);
+
+}
+
+/* chaning icon background-color fb */
+.icon-design ul li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+
+/* chaning icon background-color github*/
+.icon-design ul li:nth-child(2) a:hover{
+    background-color: #9C45AB;
+}
+
+/* chaning icon background-color linkedin*/
+.icon-design ul li:nth-child(3) a:hover{
+    background-color: #0077B5;
+}
+
+/* chaning icon background-color email*/
+.icon-design ul li:nth-child(4) a:hover{
+    background-color: #AC262B;
+}
+
+/* chaning icon background-color mobile*/
+.icon-design ul li:nth-child(5) a:hover{
+    background-color: #25D366;
+}
+
+
+/* chaning icon background-color twitter*/
+.icon-design ul li:nth-child(6) a:hover{
+    background-color: #55acee;
+}
+
+/* chaning icon background-color instagram*/
+.icon-design ul li:nth-child(7) a:hover{
+    background-color: #e4405f;
+}
+
+/* ending icon design */
+
+.about-footer{
+    color: white;
+    background-color: #303841;
+    border-top: 2px solid #BE3140;
+}
+
